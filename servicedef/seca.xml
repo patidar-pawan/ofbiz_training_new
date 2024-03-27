@@ -1,0 +1,9 @@
+<service-eca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/service-eca.xsd">
+    <!-- Inventory Issue ECAs for Immediately Fulfilled Orders -->
+    <eca service="createPartyService" event="invoke">
+<
+        <action service="createPersonService" mode="sync"/>
+    </eca>
+
+</service-eca>
